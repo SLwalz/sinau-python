@@ -18,3 +18,4 @@ elif operasi=="/" or operasi==':':
 print(10*'=')
 
 print('kenapa tuh kira kira')
+#nambah komen aja hehe
