@@ -16,3 +16,5 @@ elif operasi=="x" or operasi=="*" or operasi=='X':
 elif operasi=="/" or operasi==':':
     print(f'hasil = {angka1/angka2}')
 print(10*'=')
+
+print('kenapa tuh kira kira')
