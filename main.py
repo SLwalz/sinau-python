@@ -131,3 +131,6 @@ print(cek)
 
 print('lolo',end=" ")
 print('hehe')
+
+print('lol')
+print('llllllll')
