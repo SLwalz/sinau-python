@@ -24,7 +24,6 @@ print("suhu dalam reamur =",reamur)
 kelvin = celcius + 273
 print("suhu dalam kelvin =",kelvin)
 
-print('hehe')
 
 
 
