@@ -96,10 +96,10 @@
 # c = increment / decrement(pakai -)
 # range(1,2,3)
 
-a = list(range(6,1,-2))
-b = [i for i in range(1,5) if i!=2]
-print(a)
-print(b)
+# a = list(range(6,1,-2))
+# b = [i for i in range(1,5) if i!=2]
+# print(a)
+# print(b)
 
 # inputan = int(input('mau berapa kali'))
 # for i in range(inputan):
@@ -130,7 +130,56 @@ cek.reverse()
 print(cek)
 
 print('lolo',end=" ")
-print('hehe')
 
-print('lol')
-print('llllllll')
+# DICTIONARY ATAU DICT
+ 
+kerang = {
+    'satu' : 'bjr',
+    'dua' : 'hehe',
+    'tiga' : cek[1],
+}
+print(kerang['satu'], kerang['tiga'])
+
+# -pengecekan panjang = len(nama dict)
+# -pengecekan key ada or not =>
+#     key = "satu"
+#     checkkey = key in kerang
+#     print(f"apa {key} ada ? {checkkey} ") # hasilnya akan true or false
+# -akses value dnegan 'get'=>
+#      print(kerang.get["dua"]) # akan ditampilkan hasil
+#      print(kerang.get("empat")) # akan ditampilkan none   
+# -update dict
+#       namaDict.update(key:value)
+# sama meski ingin menambah data baru atau mengubah data lama
+# -delete data pada dict
+#      del namaDict[namaKey]
+# - LOOPING 
+# for variableName in dictName.keys(): untuk print key saja
+#        print(variablName)
+# for variableName in dictName.values(): untuk print value saja
+#       print(variablName)
+#       atau
+#       print(dictName.get(varibleName on key module(line 157)))
+# for variableName in dictName.items(): untuk print bemtuk item saja
+#       print(variablName)
+# tapi bentuk item (key, value)
+# for key,value in dictName.items(): untuk print item saja
+# (atau nama variabel lain boleh)
+#       print(f"{key} {value}")
+# 
+#  COPY AND POP
+# copy = mengkopi data
+# newVariable = dictName.copy()
+# pop = mentransfer data dan akan hilang di data awal
+# newVariable = dictName.pop("namaVariabel yg ingin ditransfer")
+# popitem = mentransfer data akhir
+# newVariable = dictName.popitem()
+
+saya = kerang.popitem()
+print(kerang)
+print(saya)
+
+
+
+
+
